@@ -66,7 +66,7 @@ function init(){
         type:"auto",
         from: `${city}, Энергетиков 4 1`,
         toEnabled: true,
-        to:'Ухань'
+        to:'невский проспект'
     })
         control.routePanel.options.set({
             types:{
