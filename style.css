@@ -1,0 +1,43 @@
+.map-container{
+    width: 600px;
+    height: 600px;
+    background-color: beige;
+    margin: 25px auto;
+}
+
+
+
+.balloon{
+    background-color: bisque;
+    padding: 0;
+    margin: 0;
+}
+
+.balloon__close-button{
+    color: red;
+}
+
+.balloon_name {
+    color: rgb(255, 0, 98);
+}
+.balloon_description {
+    color: rgb(3, 216, 67);
+}
+.balloon_contacts {
+    color: blue;
+}
+
+.main_body{
+    
+    margin: 50px auto;
+    width: 700px;
+    text-align: center;
+}
+
+[class*="balloon__close-button"]{
+    opacity: 1;
+    background-color: rgb(255, 208, 0);
+}
+
+
+
