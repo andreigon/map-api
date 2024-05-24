@@ -61,8 +61,8 @@ function init(){
     let city = 'Санкт-Петербург'
 
     control.routePanel.state.set({
-        type: 'masstransit',
-        fromEnabled: false,
+        type: "auto",
+        fromEnabled: true,
         type:"auto",
         from: `${city}, Энергетиков 4 1`,
         toEnabled: true,
